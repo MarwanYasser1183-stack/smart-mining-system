@@ -1,0 +1,23 @@
+# Arduino/ESP32 build artifacts
+build/
+*.elf
+*.hex
+*.map
+*.bin
+
+# Arduino IDE
+*.bak
+*.tmp
+
+# IMPORTANT: Never commit credentials
+secrets.h
+credentials.h
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VS Code
+.vscode/
+*.code-workspace
